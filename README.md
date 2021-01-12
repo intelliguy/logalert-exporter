@@ -29,4 +29,4 @@ taco_logging_system_alert{cluster="siim-dev",instance="10.233.52.154:2112",job="
 ```
 
 ## Best Practice
-TACO (Kubernetes Distro. from SKT) uses it to implement a alerming from petterns on log.
+TACO (Kubernetes Distro. from SKT) uses it to implement an alarm from patterns on a log.
