@@ -26,3 +26,7 @@ Labels have information like below.
 The below are a example which scraped on a prometheus server.
 ```
 taco_logging_system_alert{cluster="siim-dev",instance="10.233.52.154:2112",job="fluentbit-operator-exporter",kubernetes_name="fluentbit-operator-exporter",kubernetes_namespace="lma",level="critical",log="E0617 11:04:48.251920 1 status.go:71] apiserver received an error that is not an metav1.Status: &errors.errorString{s:"http2: stream closed"} "}
+```
+
+## Best Practice
+TACO (Kubernetes Distro. from SKT) uses it to implement a alerming from petterns on log.
